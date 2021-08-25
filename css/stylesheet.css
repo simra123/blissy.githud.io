@@ -1,0 +1,281 @@
+/***by simraz ***/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* importing font family */
+@font-face {
+    font-family: Montserrat ;
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+/* declaring main colors */
+:root{
+    --blue :rgb(54, 71, 123);
+    --red : rgb(139, 0, 0)
+}
+
+ /* basic */
+body {
+    font-family: 'Lato', sans-serif;
+    background: #fff;
+    color: #555555;
+    line-height: 1.6;
+    height: 100vh;
+    font-size: 100%;
+}
+
+h1 {
+    font-size: 2em;
+    line-height: 1.25;
+}
+
+
+h2 {
+    font-size: 1.625em;
+    line-height: 1.15385;
+}
+
+
+
+h3 {
+    font-size: 1.375em;
+    line-height: 1.13636;
+}
+
+
+
+h4 {
+    font-size: 1.125em;
+    line-height: 1.11111;
+}
+
+
+/* header css */ 
+
+header {
+    background-color: #eee;
+    color: var(--blue);
+    text-transform: uppercase;
+}
+
+.forH {
+    font-weight: 600;
+    letter-spacing: .08em;
+    line-height: 1.25;
+    margin: 0 0 20px 0;
+}
+
+.seven-number {
+    padding: 4px 10px;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 900;
+    color:var(--red);
+}
+
+.seven-reasons {
+    background: url('../assets/seven-reasons.jpg') no-repeat top right;
+    background-size: cover;
+
+}
+
+/* img text section */
+
+.custom {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #212529;
+    font-weight: 200;
+}
+
+.list-number {
+    background: var(--blue);
+    width: 25px;
+    height: auto;
+    color: white;
+    font-size: 40px;
+}
+
+.title {
+   color: black;
+   line-height: 38px;
+}
+.text {
+    color: rgb(73, 73, 73);
+    font-family: 'Helvetica', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+/* waiting section */
+
+.hurryup {
+    padding: 80px 0;
+    background-color: #EDE2DC;
+    background-blend-mode: multiply;
+}
+.hurryup h3 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+    letter-spacing: 1.76px;
+    text-transform: uppercase;
+    font-weight: 300;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.lead-2 {
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 24px;
+    color: gray;
+    font-weight: 200;
+}
+
+
+/* Customers reviews */
+.reviews-section {
+    background: white;
+
+}
+
+.reviews-wrapper {
+    padding: 20px 0;
+}
+
+.reviews {
+    background: #f8f7fb;
+    padding: 50px
+}
+.button-link a {
+    color: black;
+    font-size: 18px;
+
+}
+.tab-content i {
+    color: gold;
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.single-review{
+  padding: 5px;
+  margin-top: 20px;
+  padding-left: px;
+  
+}
+.single-review  a{
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.single-review .date {
+    font-size: 12px;
+    padding-right: 10px;
+}
+
+
+/* reviews paragraph */
+
+.single-review p {
+  font-size: 14px;
+  margin-bottom: 5px;
+  line-height: 1.5;
+  justify-content: center;
+}
+
+/* name of clients */
+.single-review span {
+    color: gray;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+/* fontawesome comma */
+.review-msg::before {
+    content: '\201C  ';
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+}
+.review-msg::after {
+    content: ' \201D';
+    font-weight: 500;
+    font-size: 20px;
+    color: #000;
+}
+
+/* verified badge */
+
+.verified::after{
+    font-family: "FontAwesome";
+    content: "   \f058   verified buyer";
+    display: inline-block;
+    padding-left: 5px;
+    vertical-align: middle;
+    font-weight:500;
+    font-size: 17px;
+    color:#1cc286;
+}
+.fixed {
+   
+    position: fixed;
+    bottom: 0px;
+    right: 0px; 
+    
+}
+
+/*Site reviews */
+#product-reviews p {
+    font-size: 16px;
+}
+
+#product-reviews span {
+    font-size: 16px;
+}
+#product-reviews .date{
+  font-size: 14px;
+} 
+
+
+/* footer  */
+.footer-social {
+    font-family: "Lato";
+    color: gray;
+    text-align: center;
+    line-height: 1.15;
+}
+
+.footer .footer-social i {
+    padding: 2%;
+    font-size: 28px;
+    color: gray;
+}
+
+.footer .footer-social i:hover {
+    color: rgb(70, 70, 70);
+}
+
+.footer .footer-nav {
+    width: calc(100% - 30px);
+    margin: 10px auto;
+    height: 25px;
+    font-weight: bold;
+}
+
+.footer .footer-nav a {
+    color: gray;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1%;
+}
+
+.footer .footer-nav a:hover {
+    color: rgb(63, 63, 63);
+}
